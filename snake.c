@@ -140,7 +140,8 @@ void PrintgameMap(int x[],int y[])
         }
         printf("\n");
     }
-    printf("score:%d",score);
+    printf("score:%d\n",score);
+    printf("Please use WASD keys.");
 }
 //move
 void move(int x[],int y[])
